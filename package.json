@@ -2,17 +2,26 @@
   "name": "nodejs-crud-api-project",
   "version": "1.0.0",
   "description": "This is vanilla nodejs CRUD API project",
+  "homepage": "https://github.com/AppMaste/NODE--JS-API#readme",
+  "bugs": {
+    "url": "https://github.com/AppMaste/NODE--JS-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppMaste/NODE--JS-API.git"
+  },
+  "license": "ISC",
+  "author": "Harsh Patel",
+  "type": "commonjs",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "Harsh Patel",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  },
   "dependencies": {
     "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
